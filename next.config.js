@@ -5,3 +5,14 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/auth',
+        destination: '/',
+        permanent: true,
+      },
+    ]
+  },
+}
