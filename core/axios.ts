@@ -1,7 +1,7 @@
 import axios from "axios";
 import { parseCookies } from "nookies";
 
-axios.defaults.baseURL = "https://cloudserver-mync.onrender.com/";
+axios.defaults.baseURL = "https://cloud-server-vquo.onrender.com";
 
 axios.interceptors.request.use((config) => {
   if (typeof window !== "undefined") {
